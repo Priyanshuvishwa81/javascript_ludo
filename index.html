@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="ludo_area" id="ludo_area">
+
+        </div>
+        <div class="ludo_area2" id="ludo_area2">
+            <div class="blank" id="blank">
+                <button class="dice" id="dice" onclick="dice()"></button>
+            </div>
+
+            <div class="start_zone1 start_zone" id="start_zone1">
+                <div class="start_zone_boxes">
+                    <div class=" circle_body circle1 red_circle"></div>
+                    <div class=" circle_body circle2 red_circle"></div>
+                    <div class=" circle_body circle3 red_circle"></div>
+                    <div class=" circle_body circle4 red_circle"></div>
+                </div>
+            </div>
+            <div class="start_zone2 start_zone" id="start_zone2">
+                <div class="start_zone_boxes">
+
+                    <div class=" circle_body circle1 green_circle"></div>
+                    <div class=" circle_body circle2 green_circle"></div>
+                    <div class=" circle_body circle3 green_circle"></div>
+                    <div class=" circle_body circle4 green_circle"></div>
+
+                </div>
+            </div>
+            <div class="start_zone3 start_zone" id="start_zone3">
+                <div class="start_zone_boxes">
+                    <div class=" circle_body circle1 yellow_circle"></div>
+                    <div class=" circle_body circle2 yellow_circle"></div>
+                    <div class=" circle_body circle3 yellow_circle"></div>
+                    <div class=" circle_body circle4 yellow_circle"></div>
+
+                </div>
+            </div>
+            <div class="start_zone4 start_zone" id="start_zone4">
+                <div class="start_zone_boxes">
+
+                    <div class=" circle_body circle1 blue_circle"></div>
+                    <div class=" circle_body circle2 blue_circle"></div>
+                    <div class=" circle_body circle3 blue_circle"></div>
+                    <div class=" circle_body circle4 blue_circle"></div>
+                </div>
+            </div>
+
+
+            <div class="running_box" id="running_box"></div>
+
+            <div class="safe_zone1 safe_zone" id="safe_zone1"></div>
+            <div class="safe_zone2 safe_zone" id="safe_zone2"></div>
+            <div class="safe_zone3 safe_zone" id="safe_zone3"></div>
+            <div class="safe_zone4 safe_zone" id="safe_zone4"></div>
+
+            <div class="running" id="running1"></div>
+            <div class="running" id="running2"></div>
+            <div class="running" id="running3"></div>
+            <div class="running" id="running4"></div>
+
+            <div class="red_stop stop"></div>
+            <div class="red_back_stop back_stop safe_zone"></div>
+
+            <div class="blue_stop stop"></div>
+            <div class="blue_back_stop back_stop safe_zone"></div>
+
+            <div class="yellow_stop stop"></div>
+            <div class="yellow_back_stop back_stop safe_zone"></div>
+
+            <div class="green_stop stop"></div>
+            <div class="green_back_stop back_stop safe_zone"></div>
+
+
+            <!-- red tokens -->
+            <button class="red_token_1 red_token token" id="red_token_1" onclick="red_dice(this.id)" disabled></button>
+            <button  class="red_token_2 red_token token" id="red_token_2" onclick="red_dice(this.id)" disabled></button>
+            <button class="red_token_3 red_token token" id="red_token_3" onclick="red_dice(this.id)" disabled></button>
+            <button class="red_token_4 red_token token" id="red_token_4" onclick="red_dice(this.id)" disabled></button>
+
+            <!-- blue_tokens
+             -->
+
+            <button class="blue_token_1 blue_token token" id="blue_token_1" onclick="blue_dice(this.id)" disabled></button>
+            <button class="blue_token_2 blue_token token" id="blue_token_2" onclick="blue_dice(this.id)" disabled></button>
+            <button class="blue_token_3 blue_token token" id="blue_token_3" onclick="blue_dice(this.id)" disabled></button>
+            <button class="blue_token_4 blue_token token" id="blue_token_4" onclick="blue_dice(this.id)" disabled></button>
+
+            <!-- green tokens -->
+            <button class="green_token_1 green_token token" id="green_token_1" onclick="green_dice(this.id)" disabled></button>
+            <button class="green_token_2 green_token token" id="green_token_2" onclick="green_dice(this.id)" disabled></button>
+            <button class="green_token_3 green_token token" id="green_token_3" onclick="green_dice(this.id)" disabled></button>
+            <button class="green_token_4 green_token token" id="green_token_4" onclick="green_dice(this.id)" disabled></button>
+
+            <!-- yellow_tokens
+              -->
+
+            <button class="yellow_token_1 yellow_token token" id="yellow_token_1" onclick="yellow_dice(this.id)" disabled></button>
+            <button class="yellow_token_2 yellow_token token" id="yellow_token_2" onclick="yellow_dice(this.id)" disabled></button>
+            <button class="yellow_token_3 yellow_token token" id="yellow_token_3" onclick="yellow_dice(this.id)" disabled></button>
+            <button class="yellow_token_4 yellow_token token" id="yellow_token_4" onclick="yellow_dice(this.id)" disabled></button>
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
